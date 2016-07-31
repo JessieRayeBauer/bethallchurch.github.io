@@ -362,6 +362,9 @@ console.log(factorial( 10, 1 )); // 3628800
 
 Support for proper tail calls is included in the [ES2015 language specification](http://www.ecma-international.org/ecma-262/6.0/#sec-tail-position-calls), but is currently unsupported in most environments. You can check whether you can use them [here](https://kangax.github.io/compat-table/es6/).
 
+## Summary
+
+Functional programming contains many ideas that we can use to make our own code simpler and better. Pure functions and immutable data minimise the hazards of side effects. Declarative programming maximises code readability. These are important tools that should be embraced when fighting against complexity.
 
 ## Resources
 
