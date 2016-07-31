@@ -364,7 +364,7 @@ Support for proper tail calls is included in the [ES2015 language specification]
 
 ## Summary
 
-Functional programming contains many ideas that we can use to make our own code simpler and better. Pure functions and immutable data minimise the hazards of side effects. Declarative programming maximises code readability. These are important tools that should be embraced when fighting against complexity.
+Functional programming contains many ideas that we can use to make our own code simpler and better. Pure functions and immutable data minimise the hazards of side effects. Declarative programming maximises code readability. These are important tools that should be embraced in the fight against complexity.
 
 ## Resources
 
