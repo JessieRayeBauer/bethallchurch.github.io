@@ -229,7 +229,8 @@ const composeTwo = function ( f, g ) {
   };
 };
 
-// composeMany can accept any number of functions as well as any number of arguments for the initial function.
+// composeMany can accept any number of functions as well as any number of arguments for the 
+// initial function.
 const composeMany = function ( ...args ) {
   const funcs = args;
   return function ( ...args ) {
