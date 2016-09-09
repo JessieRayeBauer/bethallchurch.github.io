@@ -257,7 +257,7 @@ const multiply = function ( x, y ) {
 
 const partApply = function ( fn, x ) {
   return function ( y ) {
-    fn( x, y );
+    return fn( x, y );
   };
 };
 
@@ -366,6 +366,10 @@ Support for proper tail calls is included in the [ES2015 language specification]
 ## Summary
 
 Functional programming contains many ideas that we can use to make our own code simpler and better. Pure functions and immutable data minimise the hazards of side effects. Declarative programming maximises code readability. These are important tools that should be embraced in the fight against complexity.
+
+## Corrections
+
++ [09-09-2016] Forgot to return the innermost function in `partApply`, in the section on partial function application. Thank you to Richard Bultitude for spotting the mistake!
 
 ## Resources
 
