@@ -13,6 +13,41 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
+    {% if page.mathjax %}
+      <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [["$","$"], ["\\(","\\)"]]
+        },
+        jax: ["input/TeX", "output/HTML-CSS"],
+        
+        TeX: {
+          extensions: ["AMSmath.js"],
+          equationNumbers: {
+            autoNumber: "AMS"
+          }
+        },
+        "HTML-CSS": {
+          scale: 85
+        },
+        displayAlign: "left"
+      });
+      MathJax.Hub.Register.StartupHook("TeX Jax Ready", function () {
+        var MML = MathJax.ElementJax.mml;
+        var TEX = MathJax.InputJax.TeX;
+        TEX.Definitions.macros.bfrac = "myBevelFraction";
+        TEX.Parse.Augment({
+          myBevelFraction: function (name) {
+            var num = this.ParseArg(name);
+            var den = this.ParseArg(name);
+            this.Push(MML.mfrac(num, den).With({ bevelled: true }));
+          }
+        });
+      });
+      </script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML.js"></script>
+      {% endif %}
+
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
