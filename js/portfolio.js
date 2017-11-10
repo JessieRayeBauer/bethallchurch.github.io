@@ -6,6 +6,9 @@ carousels.forEach(function (carousel) {
   carousel.addEventListener("click", function (e) {
     carousel.classList.toggle("show-info");
   });
+  carousel.querySelector(".info-inner").addEventListener("click", function (e) {
+    carousel.classList.toggle("show-info");
+  });
   // Move panels
   var margin = 0;
   var numPanels = carousel.querySelectorAll(".panel").length;
