@@ -1,8 +1,4 @@
----
-layout: default
-title: About
-permalink: /about/
----
+
 I am a fifth year Ph.D. candidate in the Developmental Psychology program at The University of Texas at Austin. I graduated from UC San Diego in 2011 with a BS in Cognitive Science with a specialization in Neuroscience and a minor in Philosophy. I also earned my Masters degree in 2015 from UT in Psychology.
  My research interests focus on learning about the developmental trajectory and stability of executive function, causal reasoning and academic achievement in young children.
 When not in the lab, I can usually be seen running, biking, swimming, or hiking with my dog, Klaus.
