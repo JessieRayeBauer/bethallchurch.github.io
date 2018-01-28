@@ -3,8 +3,8 @@ Jessie-Raye Bauer
 ============
 
 -------------------     ----------------------------
-108 E. Dean Keeton St.  |             jessie.raye.bauer@gmail.com |
-Austin, TX 78712    |                   https://tinyurl.com/jrbauer   |
+108 E. Dean Keeton St.  |       Austin, TX 78712         
+ jessie.raye.bauer@gmail.com |  https://tinyurl.com/jrbauer  
 -------------------     ----------------------------
 
 Summary
@@ -22,7 +22,6 @@ Education
 
 *   **University of California, San Diego – B.S. 2007-2011**
     -Neuroscience (specialization in Neuroscience); Philosophy
-
    
 Skills
 ---------
@@ -54,10 +53,9 @@ Selected Honors and Awards
 ---------
 
 -   UT Austin Dissertation Fellowship 2018
-
 -   Intellectual Entrepreneurship Graduate Mentor Travel Award 2017
-
 -   Debra Lobliner Research Fellowship Award 2016
-
 -   UT Austin Professional Development Awards 2013 – 2017
+
+
 
