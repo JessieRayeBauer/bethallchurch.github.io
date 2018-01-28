@@ -48,31 +48,35 @@
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML.js"></script>
       {% endif %}
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
-
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
+        <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+   </head>
+ 
+   <body>
+     <div class="wrapper-masthead">
+       <div class="container">
+         <header class="masthead clearfix">
+ 
+           <div class="site-info">
+             <h1 class="site-name"><a href="{{ site.url }}">{{ site.name }}</a></h1>
+           </div>
+ 
+            <div class="svg-icons">
+              {% include svg-icons.html %}
+            </div>
+ -
+ +          <nav>
+ +            <a href="{{ site.baseurl }}/">Portfolio</a>
+ +            <a href="{{ site.baseurl }}/about">About</a>
+ +          </nav>
+          </header>
+        </div>
       </div>
-    </div>
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+ 
+     <div id="main" role="main" class="container">
+       {{ content }}
+     </div>
+ 
+     {% include analytics.html %}
+   </body>
+ </html>
 
-    {% include analytics.html %}
-  </body>
-</html>
