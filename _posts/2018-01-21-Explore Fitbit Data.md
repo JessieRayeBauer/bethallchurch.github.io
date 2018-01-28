@@ -67,9 +67,6 @@ list(parsed_json_hr_samp['activities-heart-intraday'].keys())
 #out: [u'datasetType', u'datasetInterval', u'dataset']
 ```
 
-
-
-
     [u'datasetType', u'datasetInterval', u'dataset']
 
 
