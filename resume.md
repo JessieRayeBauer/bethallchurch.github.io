@@ -6,17 +6,17 @@ approach.
 Education
 ---------
 
- **The University of Texas at Austin – Ph.D. (expected) - April 2018**
+ **April 2018: The University of Texas at Austin – Ph.D. (expected)**
 -   Psychology, Developmental, Concentration in Applied Statistical Modeling
 
- **University of California, San Diego – B.S. 2007-2011**
--   Neuroscience (specialization in Neuroscience); Philosophy
+ **2011: University of California at San Diego – B.S.**
+-   Cognitive Neuroscience (specialization in Neuroscience); Philosophy
    
 Skills
 ---------
 
 -   R (5 years+)
--   Python, Matlab, shell scripting, GameMaker Studio (2 years) 
+-   Python, Matlab, shell scripting, GameMaker Studio (2 years)
 -   SQL, HTML, Ruby, SAS, MPLUS (&lt;1 year)
 -   Expert in experimental design, statistical analysis, and data
     visualization (e.g.,‘seaborn’, ‘ggplot2’, 'matplotlib')
