@@ -21,8 +21,8 @@
 <script src="https://gist.github.com/JessieRayeBauer/63953836df4436f56fd8daa10f3f2baa.js"></script>
 <p><br />&nbsp;</p>
 
-<img src="https://github.com/JessieRayeBauer/jessierayebauer.github.io/blob/master/_posts/img/Rplot02.png" alt="Fig1">
-<img src="https://github.com/JessieRayeBauer/jessierayebauer.github.io/blob/master/_posts/img/Rplot03.png" alt="Fig2" class="align-center">
+![png](/images/Rplot02.png)
+![png](/images/Rplot03.png)
 
 <p><br />Alright, now time to impute!!</p>
 <p><br />&nbsp;</p>
@@ -34,10 +34,9 @@
 <p>See the van Buren article for guidelines on how to measure goodness of fit for imputed&nbsp;data.</p>
 <p>&nbsp;</p>
 
-
-<img src="/_posts/img/Rplot04.png" alt="Fig3" class="align-center">
-<img src="/_posts/img/Rplot05.png" alt="Fig4" class="align-center">
-<img src="/_posts/img/Rplot06.png" alt="Fig5" class="align-center">
+![png](/images/Rplot04.png)
+![png](/images/Rplot05.png)
+![png](/images/Rplot06.png)
 
 
 <p>Finally- create a data frame from the imputed datasets, create your mediation model, extract and pool your parameters and check your final mediation model!!</p>
