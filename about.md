@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
@@ -12,4 +12,4 @@ I am also an active member of the UT Psychology Diversity Committee and a mentor
 
 ### Contact me
 
-Contact me: [jessie.raye.bauer@gmail.com](mailto:jessie.raye.bauer@gmail.com)
++[jessie.raye.bauer@gmail.com](mailto:jessie.raye.bauer@gmail.com)
