@@ -1,3 +1,6 @@
+Summary 
+---------
+
 Developmental psychology and statistics Ph.D. candidate.
 Seeking a position as a data scientist in a collaborative, fast-paced,
 and challenging environment. I like solving problems using a data driven
