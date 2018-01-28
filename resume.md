@@ -3,25 +3,27 @@ Seeking a position as a data scientist in a collaborative, fast-paced,
 and challenging environment. I like solving problems using a data driven
 approach.
 
-**Education** **The University of Texas at Austin – Ph.D. (expected)
-April 2018**
+Education
+---------
 
-> Psychology, Developmental, Concentration in Applied Statistical
-> Modeling
->
-> **University of California, San Diego – B.S. 2007-2011** Cognitive
-> Neuroscience (specialization in Neuroscience); Philosophy
+*   **The University of Texas at Austin – Ph.D. (expected) - April 2018
+    -Psychology, Developmental, Concentration in Applied Statistical Modeling
 
-**Skills** • R (5 years+)
+*   **University of California, San Diego – B.S. 2007-2011
+    -Neuroscience (specialization in Neuroscience); Philosophy
 
+   
+Skills
+---------
+**Skills** 
+- R (5 years+)
 -   Python, Matlab, shell scripting, GameMaker Studio (2 years) 
-
 -   SQL, HTML, Ruby, SAS, MPLUS (&lt;1 year)
-
 -   Expert in experimental design, statistical analysis, and data
     visualization (e.g.,‘seaborn’, ‘ggplot2’)
 
-**Data Science & Research Experience**
+Data Science & Research Experience
+---------
 
 **Graduate Researcher, The University of Texas at Austin 2015-current**
 
