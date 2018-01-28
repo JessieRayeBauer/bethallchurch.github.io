@@ -3,7 +3,7 @@ layout: default
 title: About
 permalink: /about/
 ---
-<div style="text-align:center" markdown="1">
+<div style="text-align:right" markdown="1">
 ![Me](images/IMG_3718.JPG){:height="20%" width="20%"}    
 </div>
 
