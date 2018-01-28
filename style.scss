@@ -207,7 +207,17 @@ sup {
 }
 
 .nav-right {
-    float: right;
+  float: right;
+  margin-top: 10px;
+  a {
+    color: $darkGray;
+    margin-left: 10px;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:hover, &:active {
+      color: $blue;
+    }
 }
 
 .svg-icons {
