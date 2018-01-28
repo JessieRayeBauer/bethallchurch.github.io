@@ -10,10 +10,10 @@ Education
 ---------
 
 *   **The University of Texas at Austin – Ph.D. (expected) - April 2018**
-    -Psychology, Developmental, Concentration in Applied Statistical Modeling
+-   Psychology, Developmental, Concentration in Applied Statistical Modeling
 
 *   **University of California, San Diego – B.S. 2007-2011**
-    -Neuroscience (specialization in Neuroscience); Philosophy
+-   Neuroscience (specialization in Neuroscience); Philosophy
    
 Skills
 ---------
@@ -36,7 +36,7 @@ Data Science & Research Experience
 -   Designed, executed and maintained behavioral experiments in Python ('PsychoPy') and GameMaker Studio.
 -   Served as an instructor for an undergraduate course (PSY304 Child Psychology).
 
-**Undergraduate Researcher, University of California, San Diego (2011-2012_**	        
+**Undergraduate Researcher, University of California, San Diego (2011-2012)**	        
 -  Performed independent component analysis and artifact rejection on EEG data using (Matlab, EEGLab Toolbox).
 -  Collaborated on an eye tracking experiment designed to test visual aspects of attention and later analyzed data using algorithms to model components and clusters of cortical activation (Matlab, EyeLink 1000, SR Research).
 
