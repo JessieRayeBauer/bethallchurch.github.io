@@ -3,8 +3,6 @@
 layout: default
 title: "Tutorial: Explore Your Own Fitbit Data!"
 date: 2018-01-21
-comments: true
-
 ---
 
 The goal of this project was for me to practice:
