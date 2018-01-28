@@ -1,4 +1,5 @@
 
+<p align="center">
 Jessie-Raye Bauer
 ============
 
@@ -6,7 +7,7 @@ Jessie-Raye Bauer
 108 E. Dean Keeton St.  |                       Austin, TX 78712         
 jessie.raye.bauer@gmail.com |        https://tinyurl.com/jrbauer  
 -------------------------------     ----------------------------
-
+</p>
 Summary
 ---------
 Developmental psychology and statistics Ph.D. candidate.
