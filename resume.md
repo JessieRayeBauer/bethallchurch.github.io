@@ -1,4 +1,3 @@
-Summary 
 ---------
 
 Developmental psychology and statistics Ph.D. candidate.
