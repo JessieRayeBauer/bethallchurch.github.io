@@ -235,7 +235,7 @@ plt.ylabel('Heart Rate');
 ```
 
 
-![png](images/output_16_0.png)
+![png](/images/output_16_0.png)
 
 
 That's a lot of data... it's my heart rate for every few seconds for an entire day. 
@@ -248,10 +248,6 @@ My researcher instincts are coming out now... Must check for outliers and see th
 ```python
 HR.describe()
 ```
-
-
-
-
 <div>
 <style>
     .dataframe thead tr:only-child th {
@@ -325,15 +321,9 @@ sleepdata = pd.read_json(sleepdat, typ='series')
 sleepdata
 ```
 
-
-
-
     sleep      [{u'logId': 16665472783, u'dateOfSleep': u'201...
     summary    {u'totalTimeInBed': 547, u'stages': {u'light':...
     dtype: object
-
-
-
 
 ```python
 parsed_json = json.loads(sleepdat)
@@ -346,9 +336,6 @@ Let's parse this guy.
 ```python
 list(parsed_json['sleep'][0].keys())
 ```
-
-
-
 
     [u'logId',
      u'dateOfSleep',
@@ -370,7 +357,6 @@ list(parsed_json['sleep'][0].keys())
      u'minutesAfterWakeup']
 
 
-
 Now we are ready to read in all the sleep files. I then concatonated the files using the .append command. Finally, I convert the data frame into a pandas data frame using the pd.DataFrame command. Boom.
 
 
@@ -387,16 +373,10 @@ sleepdf = pd.DataFrame(sleepy,index = dates) #use the date as the column row nam
 sleepdf.columns = ['hours'] #rename column
 sleepdf['hours'] = sleepdf['hours']/60 # Turn minutes to hours
 ```
-
 Time to see the beautiful new df!
-
-
 ```python
 sleepdf.head()
 ```
-
-
-
 
 <div>
 <style>
