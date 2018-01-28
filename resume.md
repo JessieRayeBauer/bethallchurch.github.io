@@ -3,7 +3,8 @@ layout: default
 title: Resume
 permalink: /resume/
 ---
-
+Jessie-Raye Bauer
+---------
 jessie.raye.bauer@gmail.com
 
 Summary
