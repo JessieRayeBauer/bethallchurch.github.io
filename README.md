@@ -1,9 +1,9 @@
 # README
 
-My personal blog.
+My portfolio.
++ I cloned this from: https://github.com/bethallchurch
 
 ## Setting Up
-
 + `git clone https://github.com/bethallchurch/bethallchurch.github.io.git`
 + `cd bethallchurch.github.io && jekyll serve`
 
