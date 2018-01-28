@@ -1,7 +1,3 @@
-
-Jessie-Raye Bauer
-================
-
 jessie.raye.bauer@gmail.com
 
 
