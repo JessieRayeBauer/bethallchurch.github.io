@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 <div style="text-align:center" markdown="1">
-![Me](images/IMG_3718.JPG){:height="10%" width="10%"}    
+![Me](images/IMG_3718.JPG){:height="20%" width="20%"}    
 </div>
 
 I am a fifth year Ph.D. candidate in the Developmental Psychology program at The University of Texas at Austin. I graduated from UC San Diego in 2011 with a BS in Cognitive Science with a specialization in Neuroscience and a minor in Philosophy. I also earned my Masters degree in 2015 from UT in Psychology.
