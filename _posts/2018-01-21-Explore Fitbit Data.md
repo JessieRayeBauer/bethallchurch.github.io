@@ -507,7 +507,7 @@ plt.show()
 ```
 
 
-![png](output_32_0.png)
+![png](/images/output_32_0.png)
 
 
 Let's plot the sleep data another way...how about a distribution?
@@ -523,7 +523,7 @@ plt.show()
 ```
 
 
-![png](output_34_0.png)
+![png](/images/output_34_0.png)
 
 
 Add column and labels for day of week, just as before.
@@ -614,7 +614,7 @@ plt.show()
 ```
 
 
-![png](output_39_0.png)
+![png](/images/output_39_0.png)
 
 
 How does my sleep vary from day to day? Looks like Sunday is really variable.
@@ -630,7 +630,7 @@ plt.show()
 ```
 
 
-![png](output_41_0.png)
+![png](/images/output_41_0.png)
 
 
 Another view- violin style!
@@ -656,7 +656,7 @@ plt.show()
 ```
 
 
-![png](output_43_0.png)
+![png](/images/output_43_0.png)
 
 
 Okay, last sleep plot visual, for now. The graph below is more typical of something I would encounter in academia, and it also shows the standard errors of my sleep during each day. 
@@ -672,7 +672,7 @@ plt.show()
 ```
 
 
-![png](output_45_0.png)
+![png](/images/output_45_0.png)
 
 
 ## Step data 
@@ -907,7 +907,7 @@ plt.show()
 ```
 
 
-![png](output_59_0.png)
+![png](/images/output_59_0.png)
 
 
 Violin time.
@@ -935,7 +935,7 @@ plt.show()
 ```
 
 
-![png](output_62_0.png)
+![png](/images/output_62_0.png)
 
 
 Boxplot - bam.
@@ -951,7 +951,7 @@ plt.show()
 ```
 
 
-![png](output_64_0.png)
+![png](/images/output_64_0.png)
 
 
 
@@ -1099,7 +1099,7 @@ plt.show()
 ```
 
 
-![png](output_71_0.png)
+![png](/images/output_71_0.png)
 
 
 That flat line shows that there is no linear relationship- it's flat as a pancake, which sounds amazing right now.
@@ -1245,7 +1245,7 @@ plt.show()
 ```
 
 
-![png](output_77_0.png)
+![png](/images/output_77_0.png)
 
 
 Poof! Here is that negtative linear relationship we saw in our regression table.
