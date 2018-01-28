@@ -234,7 +234,7 @@ plt.ylabel('Heart Rate');
 ```
 
 
-![png](file/ipython/output_16_0.png)
+![png](/images/output_16_0.png)
 
 
 That's a lot of data... it's my heartrate for every few seconds for an entire day. 
@@ -523,7 +523,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_32_0.png)
+![png](/images/Fitbitexplore_32_0.png)
 
 
 Let's plot the sleep data another way...how about a distribution?
@@ -539,7 +539,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_34_0.png)
+![png](/images/Fitbitexplore_34_0.png)
 
 
 Add column and labels for day of week, just as before.
@@ -630,7 +630,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_39_0.png)
+![png](/images/Fitbitexplore_39_0.png)
 
 
 How does my sleep vary from day to day? Looks like Sunday is really variable.
@@ -646,7 +646,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_41_0.png)
+![png](/images/Fitbitexplore_41_0.png)
 
 
 For kicks, we should probably check and officially see if we have an even amount of data per day (in case I forgot to put it on one night or the battery died). This is important if we want to trust the accuracy of our analyses related to days of the week!
@@ -674,7 +674,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_44_0.png)
+![png](/images/Fitbitexplore_44_0.png)
 
 
 Okay, last sleep plot visual, for now. The graph below is more typical of something I would encounter in academia, and it also shows the standard errors of my sleep during each day. 
@@ -690,7 +690,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_46_0.png)
+![png](/images/Fitbitexplore_46_0.png)
 
 
 Step data 
@@ -925,7 +925,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_60_0.png)
+![png](/images/Fitbitexplore_60_0.png)
 
 
 Violin time.
@@ -953,7 +953,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_63_0.png)
+![png](/images/Fitbitexplore_63_0.png)
 
 
 Boxplot - bam.
@@ -969,7 +969,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_65_0.png)
+![png](/images/Fitbitexplore_65_0.png)
 
 
 
@@ -1117,7 +1117,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_72_0.png)
+![png](/images/Fitbitexplore_72_0.png)
 
 
 That flat line shows that there is no linear relationship- it's flat as a pancake, which sounds amazing right now.
@@ -1263,7 +1263,7 @@ plt.show()
 ```
 
 
-![png](file/ipython/Fitbitexplore_78_0.png)
+![png](/images/Fitbitexplore_78_0.png)
 
 
 Poof! Here is that negtative linear relationship we saw in our regression table.
