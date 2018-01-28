@@ -1277,3 +1277,10 @@ What I would like to do next is collect more data! I would also like to create s
 If you have any suggestions on how I can improve, sources that may help improve my code, or comments/questions, please let me know! I am using this space to share and learn. 
 
 Thanks!!
+
+## Resources
+
++ [Fitbit API](https://dev.fitbit.com/apps/new)
++ [Brian Caffey: Including Jupyter Notebooks in Jekyll blog posts](https://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html)
+
+
