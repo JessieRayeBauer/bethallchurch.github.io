@@ -1,5 +1,10 @@
-jessie.raye.bauer@gmail.com
+---
+layout: default
+title: Resume
+permalink: /resume/
+---
 
+jessie.raye.bauer@gmail.com
 
 Summary
 ---------
