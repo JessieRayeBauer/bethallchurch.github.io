@@ -235,7 +235,7 @@ plt.ylabel('Heart Rate');
 ```
 
 
-![png](output_16_0.png)
+![png](images/output_16_0.png)
 
 
 That's a lot of data... it's my heart rate for every few seconds for an entire day. 
