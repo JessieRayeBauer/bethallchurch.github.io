@@ -5,8 +5,8 @@ Jessie-Raye Bauer
 
 
 -------------------------------     ----------------------------
-108 E. Dean Keeton St.      |        Austin, TX 78712         
-jessie.raye.bauer@gmail.com |        https://tinyurl.com/jrbauer  
+    108 E. Dean Keeton St.      |        Austin, TX 78712         
+    jessie.raye.bauer@gmail.com |        https://tinyurl.com/jrbauer  
 -------------------------------     ----------------------------
 
 Summary
