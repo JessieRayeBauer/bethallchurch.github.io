@@ -1,8 +1,4 @@
----
-layout: default
-title: Resume
-permalink: /resume/
----
+
 Summary
 ---------
 Developmental psychology and statistics Ph.D. candidate.
