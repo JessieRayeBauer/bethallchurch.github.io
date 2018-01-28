@@ -16,4 +16,4 @@ I am also an active member of the UT Psychology Diversity Committee and a mentor
 
 
 
-![Klaus](images/klaus.jpg)
+![Klaus](images/klaus.jpg | width=90 height = 50)
