@@ -15,5 +15,4 @@ I am also an active member of the UT Psychology Diversity Committee and a mentor
 +[jessie.raye.bauer@gmail.com](mailto:jessie.raye.bauer@gmail.com)
 
 
-![Klaus]({{ site.baseurl }}/images/klaus.png)
 
