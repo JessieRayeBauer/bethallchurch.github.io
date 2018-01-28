@@ -1,5 +1,3 @@
----------
-
 Developmental psychology and statistics Ph.D. candidate.
 Seeking a position as a data scientist in a collaborative, fast-paced,
 and challenging environment. I like solving problems using a data driven
@@ -8,10 +6,10 @@ approach.
 Education
 ---------
 
-*   **The University of Texas at Austin – Ph.D. (expected) - April 2018**
+ **The University of Texas at Austin – Ph.D. (expected) - April 2018**
 -   Psychology, Developmental, Concentration in Applied Statistical Modeling
 
-*   **University of California, San Diego – B.S. 2007-2011**
+ **University of California, San Diego – B.S. 2007-2011**
 -   Neuroscience (specialization in Neuroscience); Philosophy
    
 Skills
