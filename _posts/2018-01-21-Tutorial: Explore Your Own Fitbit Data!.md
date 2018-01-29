@@ -4,24 +4,25 @@ layout: post
 title: "Tutorial: Explore Your Own Fitbit Data!"
 date: 2018-01-21
 ---
+As a new Fitbit owner (Dec. 2017), previous collegiate athlete, and fitness lover, I was incredibly curious about my own Fitbit data! Here is an initial peak at my data.
 
-The goal of this project was for me to practice:
-1. downloading data from an API 
+The goal of this project was to practice:
+1. acquiring data from an API 
 2. working with new types of data formats (e.g., json)
 3. visualizations
 4. basic statistics in Python.
 
-Also, as a new Fitbit owner (Dec. 2017), previous collegiate athlete, and fitness lover, I was incredibly curious about my own data!
+In order to get my Fitbit data, I first had to set up a [Fitbit API](https://dev.fitbit.com/apps/new). Then, I ran a separate script - available [here](https://github.com/JessieRayeBauer/Fitbit/blob/master/Pull_fitbit_data.md).
 
-The general outline of this notebook is as follows:
+
+The general outline of this post is as follows:
  1. Import or install necessary libraries
  2. Read in and visualize data sets (heart rate, sleep, steps)
  3. Analyses!
  4. Next steps
  
-In order to get my Fitbit data, I first had to set up a [Fitbit API](https://dev.fitbit.com/apps/new). Then, I ran a separate script - available [here](https://github.com/JessieRayeBauer/Fitbit/blob/master/Pull_fitbit_data.md).
 
- 1. Import or install necessary libraries
+**1. Import or install necessary libraries**
 
 ```python
 #!pip install fitbit
@@ -47,14 +48,13 @@ import seaborn as sns
 
 Let's read in one file with heartrate data to check the format and see what the data looks like.
 
-
 ~~~~~~ python
 with open('heartrate/HR2017-12-23.json') as f:
     hr_dat_sample = json.loads(f.read())
 #hr_dat_sample
 ~~~~~~~~~~~~
 
-That is crazy town output... let's parse the .json file so humans can read it!
+We ended up with crazy town output... let's parse the .json file so humans can read it!
 
 
 ```python
@@ -62,21 +62,18 @@ parsed_json_hr_samp = json.loads(hr_dat_sample)
 #parsed_json_hr_samp
 ```
 
-
 ```python
 list(parsed_json_hr_samp['activities-heart-intraday'].keys())
 ```
-
     [u'datasetType', u'datasetInterval', u'dataset']
 
 
 
 Much better. Now we can see the headings inside 'activities-heart-intraday'. 
 
- 2. Read in and visualize data
+**2. Read in and visualize data**
 
 Heart Rate
-
 
 ```python
 dates = pd.date_range('2017-12-23', '2018-01-25')
@@ -94,12 +91,9 @@ HR_df = pd.DataFrame(hrval,index = dates)
 HR_df.columns = ['time', 'bpm']
 ```
 
-
 ```python
 HR_df.head()
 ```
-
-
 
 
 <div>
@@ -309,7 +303,7 @@ HR.describe()
 
 
 
-Sleep Data
+**Sleep Data**
 
 Let's repeat the data structure exploration that we did with heartrate for sleep! This code should read in one sleep file, should get the highest level keys: 'summary' and 'sleep'
 
@@ -510,7 +504,7 @@ sleepdf.describe()
 
 
 
-Plot it out in a nice simple graph (ya basic). I should probably stick to a better sleep schedule.
+Plot it out in a nice simple graph. I should probably stick to a better sleep schedule.
 
 
 ```python
@@ -691,7 +685,7 @@ plt.show()
 ![png](/images/Fitbitexplore_46_0.png)
 
 
-Step data 
+**Step data**
 
 Read it in. And check structure of .json file, it's a mystery. 
 
@@ -979,26 +973,23 @@ from pandas.core import datetools
 stepsdf['hours'] = sleepdf['hours'].values
 ```
 
-3. Analyses (!!)
+**3. Analyses**
 
 Linear regression models
 
-Question 1: Am I more active on days after I get more sleep? 
+**Question 1: Am I more active on days after I get more sleep?**
 
 I am operationalizing active to mean more steps per day.
 
 In the model below, I am predicting my steps from the hours of sleep I got the night before. I am using an ordinary least squares regression model. Below is the code for the model, fitting the model, and displaying the results. 
 
-First, create variable for the previous night's sleep and align it properly.
+First, we create variable for the previous night's sleep and align it properly.
 
 
 ```python
 stepsdf["hours_prev"] = stepsdf.shift(1).hours
 stepsdf.head()
 ```
-
-
-
 
 <div>
 <style>
@@ -1077,15 +1068,10 @@ stepsdf.head()
 </div>
 
 
-
-
 ```python
 mod1 = smf.ols(formula = "steps ~ hours_prev", data = stepsdf).fit()
 mod1.summary().tables[1]
 ```
-
-
-
 
 <table class="simpletable">
 <tr>
@@ -1101,7 +1087,7 @@ mod1.summary().tables[1]
 
 
 
-Results:
+**Results:**
 
 So, we can see from the regression table that how many hours I slept the previous night ('hours_prev') does not predict the amount of steps I take the next day. This might be for a variety of reasons. First, I don't have a lot of data yet! I have only used my Fitbit for a month. Second, I am a graduate student, and my sleep is incredibly variable. Third- I love to be active! Even if I am tired, a run usually makes me feel better. Long story short is, we need more data!
 
@@ -1120,9 +1106,9 @@ plt.show()
 
 That flat line shows that there is no linear relationship- it's flat as a pancake, which sounds amazing right now.
 
-Linear regression model  part 2
+**Linear regression model  part 2**
 
- Question 2: Do I sleep need more sleep the night after I don't get a lot of sleep? In other words, am I building up a sleep deficit?
+ **Question 2: Do I sleep need more sleep the night after I don't get a lot of sleep? In other words, am I building up a sleep deficit?**
 
 In the model below, I am predicting the difference in amount of sleep I get from the hours of sleep I got the night before. I am using an ordinary least squares regression model. Below is the code for the model, fitting the model, and displaying the results. 
 
@@ -1244,7 +1230,7 @@ mod2.summary().tables[1]
 
 
 
-Results:
+**Results Question 2:**
 
 The regression table shows that how many hours I slept the previous night ('hours_prev') negatively predicts the difference in amount of sleep I get the next day. Put more simply, this means that if I get a good night's sleep, the next night, I don't need as much sleep. Conversely, if I don't get a lot of sleep, the next night, I make up for it by sleeping longer.
 
@@ -1266,7 +1252,7 @@ plt.show()
 
 Poof! Here is that negtative linear relationship we saw in our regression table.
 
-4. Next steps
+**4. Next steps**
 
 In sum, we have imported data using Fitbit's API, worked with .json data, visualized our data, and we ran two linear regressions. We found that my activity level is dependent from how much sleep I get and that I built up a sleep deficit over time. Phew!! 
 
@@ -1279,6 +1265,7 @@ Thanks!!
 ## Resources
 
 + [Fitbit API](https://dev.fitbit.com/apps/new)
++ [A Fun Read - Paul's Geek Dad Blog ](http://pdwhomeautomation.blogspot.co.uk/2016/01/fitbit-api-access-using-oauth20-and.html)
 + [Brian Caffey: Including Jupyter Notebooks in Jekyll blog posts](https://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html)
 
 
