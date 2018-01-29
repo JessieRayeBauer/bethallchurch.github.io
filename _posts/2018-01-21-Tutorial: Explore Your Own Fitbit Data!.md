@@ -95,59 +95,13 @@ HR_df.columns = ['time', 'bpm']
 HR_df.head()
 ```
 
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>time</th>
-      <th>bpm</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2017-12-23</th>
-      <td>00:00:03</td>
-      <td>92</td>
-    </tr>
-    <tr>
-      <th>2017-12-24</th>
-      <td>00:00:04</td>
-      <td>88</td>
-    </tr>
-    <tr>
-      <th>2017-12-25</th>
-      <td>00:00:03</td>
-      <td>94</td>
-    </tr>
-    <tr>
-      <th>2017-12-26</th>
-      <td>00:00:03</td>
-      <td>93</td>
-    </tr>
-    <tr>
-      <th>2017-12-27</th>
-      <td>00:00:03</td>
-      <td>74</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+|   | time  | value | 
+|---|-------|-------|
+|  0 | 00:00:01  | 68 |
+|   1| 00:00:02  | 69 |  
+| 2  | 00:00:05  | 70 |
+|  3 | 00:00:08  | 70 | 
+|   4| 00:00:11  | 69 |
 
 
 This should be where the heart rate statistics are stored. Let's check.
