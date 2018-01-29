@@ -89,19 +89,9 @@ for date in dates:
 
 HR_df = pd.DataFrame(hrval,index = dates)
 HR_df.columns = ['time', 'bpm']
-```
-
-```python
 HR_df.head()
 ```
-
-|    | time      | value | 
-|----|-----------|-------|
-|  0 | 00:00:01  | 68    |
-|  1 | 00:00:02  | 69    |  
-|  2 | 00:00:05  | 70    |
-|  3 | 00:00:08  | 70    | 
-|  4 | 00:00:11  | 69    |
+![png](/images/table1.png)
 
 
 This should be where the heart rate statistics are stored. Let's check.
@@ -112,63 +102,7 @@ stats = data['activities-heart-intraday']['dataset']
 HR=pd.DataFrame(stats)
 HR.head()
 ```
-
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>time</th>
-      <th>value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>00:00:01</td>
-      <td>68</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>00:00:02</td>
-      <td>69</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>00:00:05</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>00:00:08</td>
-      <td>70</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>00:00:11</td>
-      <td>69</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
+![png](/images/table2.png)
 
 Hooray! Alas, they are here. Let's rename the columns and plot data just to have a look.
 
@@ -193,67 +127,7 @@ My researcher instincts are coming out now... Must check for outliers and see th
 ```python
 HR.describe()
 ```
-
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>bpm</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>count</th>
-      <td>25694.000000</td>
-    </tr>
-    <tr>
-      <th>mean</th>
-      <td>82.025181</td>
-    </tr>
-    <tr>
-      <th>std</th>
-      <td>18.923871</td>
-    </tr>
-    <tr>
-      <th>min</th>
-      <td>55.000000</td>
-    </tr>
-    <tr>
-      <th>25%</th>
-      <td>70.000000</td>
-    </tr>
-    <tr>
-      <th>50%</th>
-      <td>78.000000</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>87.000000</td>
-    </tr>
-    <tr>
-      <th>max</th>
-      <td>204.000000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+![png](/images/table3.png)
 
 
 
@@ -269,9 +143,6 @@ with open('sleep/sleep2017-12-23.json') as f:
 sleepdata = pd.read_json(sleepdat, typ='series')
 sleepdata
 ```
-
-
-
 
     sleep      [{u'logId': 16665472783, u'dateOfSleep': u'201...
     summary    {u'totalTimeInBed': 547, u'stages': {u'light':...
@@ -337,55 +208,7 @@ Time to see the beautiful new df!
 sleepdf.head()
 ```
 
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>hours</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2017-12-23</th>
-      <td>9.116667</td>
-    </tr>
-    <tr>
-      <th>2017-12-24</th>
-      <td>9.250000</td>
-    </tr>
-    <tr>
-      <th>2017-12-25</th>
-      <td>8.683333</td>
-    </tr>
-    <tr>
-      <th>2017-12-26</th>
-      <td>9.966667</td>
-    </tr>
-    <tr>
-      <th>2017-12-27</th>
-      <td>7.500000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+![png](/images/table4.png)
 
 
 And again, check for outliers just in case. You never know. But, it all looks good.
@@ -394,67 +217,7 @@ And again, check for outliers just in case. You never know. But, it all looks go
 ```python
 sleepdf.describe()
 ```
-
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>hours</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>count</th>
-      <td>34.000000</td>
-    </tr>
-    <tr>
-      <th>mean</th>
-      <td>8.486765</td>
-    </tr>
-    <tr>
-      <th>std</th>
-      <td>1.420336</td>
-    </tr>
-    <tr>
-      <th>min</th>
-      <td>4.966667</td>
-    </tr>
-    <tr>
-      <th>25%</th>
-      <td>7.587500</td>
-    </tr>
-    <tr>
-      <th>50%</th>
-      <td>8.383333</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>9.312500</td>
-    </tr>
-    <tr>
-      <th>max</th>
-      <td>12.066667</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+![png](/images/table5.png)
 
 
 
@@ -500,65 +263,7 @@ sleepdf.head()
 ```
 
 
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>hours</th>
-      <th>day_of_week</th>
-      <th>day_name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2017-12-23</th>
-      <td>9.116667</td>
-      <td>5</td>
-      <td>Saturday</td>
-    </tr>
-    <tr>
-      <th>2017-12-24</th>
-      <td>9.250000</td>
-      <td>6</td>
-      <td>Sunday</td>
-    </tr>
-    <tr>
-      <th>2017-12-25</th>
-      <td>8.683333</td>
-      <td>0</td>
-      <td>Monday</td>
-    </tr>
-    <tr>
-      <th>2017-12-26</th>
-      <td>9.966667</td>
-      <td>1</td>
-      <td>Tuesday</td>
-    </tr>
-    <tr>
-      <th>2017-12-27</th>
-      <td>7.500000</td>
-      <td>2</td>
-      <td>Wednesday</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+![png](/images/table6.png)
 
 
 
@@ -701,61 +406,7 @@ stepsdf.columns = ['date','steps'] # rename columns
 stepsdf.head()
 ```
 
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>date</th>
-      <th>steps</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2017-12-23</th>
-      <td>2017-12-23</td>
-      <td>4238</td>
-    </tr>
-    <tr>
-      <th>2017-12-24</th>
-      <td>2017-12-24</td>
-      <td>10776</td>
-    </tr>
-    <tr>
-      <th>2017-12-25</th>
-      <td>2017-12-25</td>
-      <td>4928</td>
-    </tr>
-    <tr>
-      <th>2017-12-26</th>
-      <td>2017-12-26</td>
-      <td>9468</td>
-    </tr>
-    <tr>
-      <th>2017-12-27</th>
-      <td>2017-12-27</td>
-      <td>7046</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+![png](/images/table7.png)
 
 
 Add column for the day of week, just as before. 
@@ -768,73 +419,7 @@ stepsdf["day_name"] = stepsdf["day_of_week"].apply(lambda x: days[x])
 stepsdf.head()
 ```
 
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>date</th>
-      <th>steps</th>
-      <th>day_of_week</th>
-      <th>day_name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2017-12-23</th>
-      <td>2017-12-23</td>
-      <td>4238</td>
-      <td>5</td>
-      <td>Saturday</td>
-    </tr>
-    <tr>
-      <th>2017-12-24</th>
-      <td>2017-12-24</td>
-      <td>10776</td>
-      <td>6</td>
-      <td>Sunday</td>
-    </tr>
-    <tr>
-      <th>2017-12-25</th>
-      <td>2017-12-25</td>
-      <td>4928</td>
-      <td>0</td>
-      <td>Monday</td>
-    </tr>
-    <tr>
-      <th>2017-12-26</th>
-      <td>2017-12-26</td>
-      <td>9468</td>
-      <td>1</td>
-      <td>Tuesday</td>
-    </tr>
-    <tr>
-      <th>2017-12-27</th>
-      <td>2017-12-27</td>
-      <td>7046</td>
-      <td>2</td>
-      <td>Wednesday</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+![png](/images/table8.png)
 
 
 To perform any analyses or plot data, we need to convert steps column into a numeric type. Otherwise we get errors. We don't like errors.
@@ -945,99 +530,13 @@ stepsdf["hours_prev"] = stepsdf.shift(1).hours
 stepsdf.head()
 ```
 
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>date</th>
-      <th>steps</th>
-      <th>day_of_week</th>
-      <th>day_name</th>
-      <th>hours</th>
-      <th>hours_prev</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2017-12-23</th>
-      <td>2017-12-23</td>
-      <td>4238</td>
-      <td>5</td>
-      <td>Saturday</td>
-      <td>9.116667</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2017-12-24</th>
-      <td>2017-12-24</td>
-      <td>10776</td>
-      <td>6</td>
-      <td>Sunday</td>
-      <td>9.250000</td>
-      <td>9.116667</td>
-    </tr>
-    <tr>
-      <th>2017-12-25</th>
-      <td>2017-12-25</td>
-      <td>4928</td>
-      <td>0</td>
-      <td>Monday</td>
-      <td>8.683333</td>
-      <td>9.250000</td>
-    </tr>
-    <tr>
-      <th>2017-12-26</th>
-      <td>2017-12-26</td>
-      <td>9468</td>
-      <td>1</td>
-      <td>Tuesday</td>
-      <td>9.966667</td>
-      <td>8.683333</td>
-    </tr>
-    <tr>
-      <th>2017-12-27</th>
-      <td>2017-12-27</td>
-      <td>7046</td>
-      <td>2</td>
-      <td>Wednesday</td>
-      <td>7.500000</td>
-      <td>9.966667</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+![png](/images/table9.png)
 
 ```python
 mod1 = smf.ols(formula = "steps ~ hours_prev", data = stepsdf).fit()
 mod1.summary().tables[1]
 ```
-
-<table class="simpletable">
-<tr>
-       <td></td>         <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
-</tr>
-<tr>
-  <th>Intercept</th>  <td> 7624.5193</td> <td> 3320.426</td> <td>    2.296</td> <td> 0.029</td> <td>  852.465</td> <td> 1.44e+04</td>
-</tr>
-<tr>
-  <th>hours_prev</th> <td>  130.7044</td> <td>  384.278</td> <td>    0.340</td> <td> 0.736</td> <td> -653.036</td> <td>  914.445</td>
-</tr>
-</table>
+![png](/images/table10.png)
 
 
 
@@ -1075,90 +574,7 @@ stepsdf.head()
 ```
 
 
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>date</th>
-      <th>steps</th>
-      <th>day_of_week</th>
-      <th>day_name</th>
-      <th>hours</th>
-      <th>hours_prev</th>
-      <th>hours_diff</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2017-12-23</th>
-      <td>2017-12-23</td>
-      <td>4238</td>
-      <td>5</td>
-      <td>Saturday</td>
-      <td>9.116667</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2017-12-24</th>
-      <td>2017-12-24</td>
-      <td>10776</td>
-      <td>6</td>
-      <td>Sunday</td>
-      <td>9.250000</td>
-      <td>9.116667</td>
-      <td>0.133333</td>
-    </tr>
-    <tr>
-      <th>2017-12-25</th>
-      <td>2017-12-25</td>
-      <td>4928</td>
-      <td>0</td>
-      <td>Monday</td>
-      <td>8.683333</td>
-      <td>9.250000</td>
-      <td>-0.566667</td>
-    </tr>
-    <tr>
-      <th>2017-12-26</th>
-      <td>2017-12-26</td>
-      <td>9468</td>
-      <td>1</td>
-      <td>Tuesday</td>
-      <td>9.966667</td>
-      <td>8.683333</td>
-      <td>1.283333</td>
-    </tr>
-    <tr>
-      <th>2017-12-27</th>
-      <td>2017-12-27</td>
-      <td>7046</td>
-      <td>2</td>
-      <td>Wednesday</td>
-      <td>7.500000</td>
-      <td>9.966667</td>
-      <td>-2.466667</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+![png](/images/table11.png)
 
 
 
@@ -1168,19 +584,7 @@ mod2.summary().tables[1]
 ```
 
 
-
-
-<table class="simpletable">
-<tr>
-       <td></td>         <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
-</tr>
-<tr>
-  <th>Intercept</th>  <td>    9.4319</td> <td>    1.558</td> <td>    6.054</td> <td> 0.000</td> <td>    6.254</td> <td>   12.610</td>
-</tr>
-<tr>
-  <th>hours_prev</th> <td>   -1.1131</td> <td>    0.180</td> <td>   -6.173</td> <td> 0.000</td> <td>   -1.481</td> <td>   -0.745</td>
-</tr>
-</table>
+![png](/images/table12.png)
 
 
 
