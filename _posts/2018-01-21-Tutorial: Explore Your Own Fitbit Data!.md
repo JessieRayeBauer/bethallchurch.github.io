@@ -91,8 +91,28 @@ HR_df = pd.DataFrame(hrval,index = dates)
 HR_df.columns = ['time', 'bpm']
 HR_df.head()
 ```
-![png](/images/table1.png)
-
+<body>
+<table class="gridtable">
+<tr>
+<th> </th><th>time</th><th>bpm</th>
+</tr>
+<tr>
+<td>2017-12-23</td><td>00:00:03</td><td>92</td>
+</tr>
+<tr>
+<td>2017-12-24</td><td>00:00:04</td><td>88</td>
+</tr>
+ <tr>
+<td>2017-12-25</td><td>00:00:03</td><td>94</td>
+</tr>
+ <tr>
+<td>2017-12-26</td><td>00:00:03</td><td>93</td>
+</tr>
+ <tr>
+<td>2017-12-27</td><td>00:00:03</td><td>74</td>
+</tr>
+</table>
+</body>
 
 This should be where the heart rate statistics are stored. Let's check.
 
@@ -625,21 +645,5 @@ Thanks!!
 + [Fitbit API](https://dev.fitbit.com/apps/new)
 + [A Fun Read - Paul's Geek Dad Blog ](http://pdwhomeautomation.blogspot.co.uk/2016/01/fitbit-api-access-using-oauth20-and.html)
 + [Brian Caffey: Including Jupyter Notebooks in Jekyll blog posts](https://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html)
-
-  
- 
-<body>
-<table class="gridtable">
-<tr>
-<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>
-</tr>
-<tr>
-<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
-</tr>
-<tr>
-<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
-</tr>
-</table>
-</body>
 
 
