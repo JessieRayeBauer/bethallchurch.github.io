@@ -628,8 +628,6 @@ Thanks!!
 
   
  
-</style>
-</head>
 <body>
 <table class="gridtable">
 <tr>
@@ -643,5 +641,5 @@ Thanks!!
 </tr>
 </table>
 </body>
-</html>
+
 
