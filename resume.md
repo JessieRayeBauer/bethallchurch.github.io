@@ -41,10 +41,11 @@ Data Science & Research Experience
 Selected Honors and Awards
 ---------
 
--   UT Austin Dissertation Fellowship 2018
--   Intellectual Entrepreneurship Graduate Mentor Travel Award 2017
--   Debra Lobliner Research Fellowship Award 2016
--   UT Austin Professional Development Awards 2013 – 2017
+-   2018: UT Austin Dissertation Fellowship ($10,000)
+-   2017: Intellectual Entrepreneurship Graduate Mentor Travel Award
+-   2017: Debra Lobliner Research Fellowship Award ($1,393)
+-   2013 – 2017: UT Austin Professional Development Awards
+
 
 
 
