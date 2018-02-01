@@ -626,7 +626,6 @@ Thanks!!
 + [A Fun Read - Paul's Geek Dad Blog ](http://pdwhomeautomation.blogspot.co.uk/2016/01/fitbit-api-access-using-oauth20-and.html)
 + [Brian Caffey: Including Jupyter Notebooks in Jekyll blog posts](https://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html)
 
-<p>&nbsp;</p>
   
   <table class="gridtable">
 <tr>
