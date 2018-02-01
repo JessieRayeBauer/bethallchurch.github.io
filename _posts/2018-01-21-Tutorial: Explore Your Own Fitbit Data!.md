@@ -472,8 +472,28 @@ stepsdf.columns = ['date','steps'] # rename columns
 stepsdf.head()
 ```
 
-![png](/images/table7.png)
-
+<body>
+<table class="gridtable">
+<tr>
+<th>dates</th><th>hours</th>
+</tr>
+<tr>
+<td>2017-12-23</td><td>9.116667</td>
+</tr>
+<tr>
+<td>2017-12-24</td><td>9.250000</td>
+</tr>
+ <tr>
+<td>2017-12-25</td><td>8.683333</td>
+</tr>
+ <tr>
+<td>2017-12-26</td><td>9.966667</td>
+</tr>
+ <tr>
+<td>2017-12-27</td><td>7.5000000</td>
+</tr>
+</table>
+</body>
 
 Add column for the day of week, just as before. 
 
@@ -485,8 +505,34 @@ stepsdf["day_name"] = stepsdf["day_of_week"].apply(lambda x: days[x])
 stepsdf.head()
 ```
 
-![png](/images/table8.png)
-
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>bpm</th>
+</tr>
+<tr>
+<td>count</td><td>34.000000</td>
+</tr>
+<tr>
+<td>mean</td><td>8.486765</td>
+</tr>
+ <tr>
+<td>std</td><td>1.420336</td>
+</tr>
+ <tr>
+<td>min</td><td>4.966667</td>
+</tr>
+ <tr>
+<td>50%</td><td>7.587500</td>
+</tr>
+  <tr>
+<td>75%</td><td>8.383333</td>
+</tr>
+  <tr>
+<td>max</td><td>12.066667</td>
+</tr> 
+</table>
+</body>
 
 To perform any analyses or plot data, we need to convert steps column into a numeric type. Otherwise we get errors. We don't like errors.
 
