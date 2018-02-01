@@ -28,7 +28,7 @@ Data Science & Research Experience
 -   Analyzed behavioral and survey data using linear mixed effects models, repeated measures ANOVA/regression, multiple imputation, structural equation modeling, time series analysis, logistic regression, chi-square tests, t-tests, hierarchical Bayesian estimation, and model comparisons in R (‘lme4’, 'mice', 'lavaan', 'mitools', ‘aov’), Python (‘HDDM’) and MPLUS.
 -   Authored 2 peer-reviewed journal articles, 4 manuscripts under review and in preparation. 
 -   Presented results to researchers at national and international conferences and departmental seminars. 
--   Led a team of 12 research assistants to ensure quality data collection, coding, and quality control across 5 different projects.
+-   Led teams of up to 12 research assistants to ensure quality data collection, coding, and quality control across 5 different projects.
 -   Mentored and independently supervised 3 undergraduate students who completed independent research projects within the lab.
 -   Designed, executed and maintained behavioral experiments in Python ('PsychoPy') and GameMaker Studio.
 -   Served as an instructor for an undergraduate course (PSY304 Child Psychology).
