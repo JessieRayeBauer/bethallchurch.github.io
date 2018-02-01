@@ -56,3 +56,16 @@
 <li>White, I. R., Royston, P., &amp; Wood, A. M. (2011). Multiple imputation using chained equations: issues and guidance for practice. Statistics in Medicine, 30(4), 377-399. doi:http://dx.doi.org/10.1002/sim.4067</li> 
 </ol>
 <p>&nbsp;</p>
+  
+  <table class="gridtable">
+<tr>
+	<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>
+</tr>
+<tr>
+	<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
+</tr>
+<tr>
+	<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
+</tr>
+</table>
+
