@@ -170,7 +170,7 @@ HR.describe()
 <body>
 <table class="gridtable">
 <tr>
-<th></th><th>bmp</th>
+<th></th><th>bpm</th>
 </tr>
 <tr>
 <td>count</td><td>25694.000000</td>
