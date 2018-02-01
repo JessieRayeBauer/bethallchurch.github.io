@@ -321,7 +321,7 @@ sup {
 .carousel.vertical {
   @include verticalCarousel;
 }
-<style type="text/css">
+
 table.gridtable {
 	font-family: verdana,arial,sans-serif;
 	font-size:11px;
@@ -344,6 +344,7 @@ table.gridtable td {
 	border-color: #666666;
 	background-color: #ffffff;
 }
-</style>
+
 
 @import "highlights";
+}
