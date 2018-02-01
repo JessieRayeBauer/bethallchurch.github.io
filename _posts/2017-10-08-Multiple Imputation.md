@@ -53,7 +53,7 @@
 <li>Enders, C. K. (2013), Dealing With Missing Data in Developmental Research. Child Dev Perspectives, 7, 27&ndash;31. doi:10.1111/cdep.12008</li>
 <li>Little, R. J., &amp; Rubin, D. B. (2002). Single imputation methods. Statistical Analysis with Missing Data, Second Edition, 59-74. doi:http://dx.doi.org/10.1002/9781119013563</li>
 <li>van Buuren, S., &amp; Groothuis-Oudshoorn, K. (2011). mice: Multivariate Imputation by Chained Equations in R. Journal of Statistical Sotware, 45(3), 1-67. doi:http://dx.doi.org/10.18637/jss.v045.i03</li>
-<li>White, I. R., Royston, P., &amp; Wood, A. M. (2011). Multiple imputation using chained equations: issues and guidance for practice. Statistics in Medicine, 30(4), 377-399. doi:http://dx.doi.org/10.1002/sim.4067</li> </font>
+<li>White, I. R., Royston, P., &amp; Wood, A. M. (2011). Multiple imputation using chained equations: issues and guidance for practice. Statistics in Medicine, 30(4), 377-399. doi:http://dx.doi.org/10.1002/sim.4067</li> 
 </ol>
 <p>&nbsp;</p>
 
