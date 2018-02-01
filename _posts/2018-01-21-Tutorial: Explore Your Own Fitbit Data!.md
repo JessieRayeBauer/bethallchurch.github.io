@@ -94,7 +94,7 @@ HR_df.head()
 <body>
 <table class="gridtable">
 <tr>
-<th> </th><th>time</th><th>bpm</th>
+<th>dates</th><th>time</th><th>bpm</th>
 </tr>
 <tr>
 <td>2017-12-23</td><td>00:00:03</td><td>92</td>
@@ -122,8 +122,28 @@ stats = data['activities-heart-intraday']['dataset']
 HR=pd.DataFrame(stats)
 HR.head()
 ```
-![png](/images/table2.png)
-
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>time</th><th>value</th>
+</tr>
+<tr>
+<td>0</td><td>00:00:01</td><td>68</td>
+</tr>
+<tr>
+<td>1</td><td>00:00:02</td><td>69</td>
+</tr>
+ <tr>
+<td>2</td><td>00:00:05</td><td>70</td>
+</tr>
+ <tr>
+<td>3</td><td>00:00:08</td><td>70</td>
+</tr>
+ <tr>
+<td>4</td><td>00:00:11</td><td>69</td>
+</tr>
+</table>
+</body>
 Hooray! Alas, they are here. Let's rename the columns and plot data just to have a look.
 
 
@@ -147,8 +167,34 @@ My researcher instincts are coming out now... Must check for outliers and see th
 ```python
 HR.describe()
 ```
-![png](/images/table3.png)
-
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>bmp</th>
+</tr>
+<tr>
+<td>count</td><td>25694.000000</td>
+</tr>
+<tr>
+<td>mean</td><td>82.025181</td>
+</tr>
+ <tr>
+<td>std</td><td>55.000000</td>
+</tr>
+ <tr>
+<td>min</td><td>70.000000</td>
+</tr>
+ <tr>
+<td>50%</td><td>78.000000</td>
+</tr>
+  <tr>
+<td>75%</td><td>87.000000</td>
+</tr>
+  <tr>
+<td>max</td><td>204.000000</td>
+</tr> 
+</table>
+</body>
 
 
 **Sleep Data**
