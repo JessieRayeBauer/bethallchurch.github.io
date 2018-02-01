@@ -627,16 +627,21 @@ Thanks!!
 + [Brian Caffey: Including Jupyter Notebooks in Jekyll blog posts](https://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html)
 
   
-  <table class="gridtable">
+ 
+</style>
+</head>
+<body>
+<table class="gridtable">
 <tr>
-	<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>
+<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>
 </tr>
 <tr>
-	<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
+<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
 </tr>
 <tr>
-	<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
+<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
 </tr>
 </table>
-
+</body>
+</html>
 
