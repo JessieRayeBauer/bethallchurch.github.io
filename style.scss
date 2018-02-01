@@ -8,6 +8,7 @@
 @import "_reset";
 @import "_variables";
 @import "_mixins";
+@import "highlights"
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -346,5 +347,4 @@ table.gridtable td {
 }
 
 
-@import "highlights";
-}
+
