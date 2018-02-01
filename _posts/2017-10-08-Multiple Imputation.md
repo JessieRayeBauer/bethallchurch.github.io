@@ -56,9 +56,3 @@
 <li>White, I. R., Royston, P., &amp; Wood, A. M. (2011). Multiple imputation using chained equations: issues and guidance for practice. Statistics in Medicine, 30(4), 377-399. doi:http://dx.doi.org/10.1002/sim.4067</li> 
 </ol>
 <p>&nbsp;</p>
-
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
