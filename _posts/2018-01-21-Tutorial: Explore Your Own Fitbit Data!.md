@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: post
 title: "Tutorial: Explore Your Own Fitbit Data!"
 date: 2018-01-21
 ---
