@@ -67,8 +67,6 @@ list(parsed_json_hr_samp['activities-heart-intraday'].keys())
 ```
     [u'datasetType', u'datasetInterval', u'dataset']
 
-
-
 Much better. Now we can see the headings inside 'activities-heart-intraday'. 
 
 **2. Read in and visualize data**
@@ -153,7 +151,6 @@ HR.plot(color = "firebrick")
 plt.ylabel('Heart Rate');
 ```
 
-
 ![png](/images/output_16_0.png)
 
 
@@ -209,13 +206,9 @@ with open('sleep/sleep2017-12-23.json') as f:
 sleepdata = pd.read_json(sleepdat, typ='series')
 sleepdata
 ```
-
     sleep      [{u'logId': 16665472783, u'dateOfSleep': u'201...
     summary    {u'totalTimeInBed': 547, u'stages': {u'light':...
     dtype: object
-
-
-
 
 ```python
 parsed_json = json.loads(sleepdat)
@@ -248,10 +241,7 @@ list(parsed_json['sleep'][0].keys())
      u'awakeCount',
      u'minutesAfterWakeup']
 
-
-
 Now we are ready to read in all the sleep files. I then concatonated the files using the .append command. Finally, I convert the data frame into a pandas data frame using the pd.DataFrame command. Boom.
-
 
 ```python
 sleepy = []
@@ -269,11 +259,9 @@ sleepdf['hours'] = sleepdf['hours']/60 # Turn minutes to hours
 
 Time to see the beautiful new df!
 
-
 ```python
 sleepdf.head()
 ```
-
 
 <body>
 <table class="gridtable">
@@ -304,7 +292,6 @@ And again, check for outliers just in case. You never know. But, it all looks go
 ```python
 sleepdf.describe()
 ```
-
 
 <body>
 <table class="gridtable">
@@ -337,7 +324,6 @@ sleepdf.describe()
 
 
 Plot it out in a nice simple graph. I should probably stick to a better sleep schedule.
-
 
 ```python
 sleepdf['hours'].plot(color = "mediumseagreen")
@@ -471,14 +457,8 @@ stepsdata = pd.read_json(step_data, typ='series')
 stepsdata
 ```
 
-
-
-
     activities-steps    [{u'value': u'12721', u'dateTime': u'2018-01-1...
     dtype: object
-
-
-
 
 ```python
 parsed_json = json.loads(step_data)
@@ -493,13 +473,7 @@ Get higher level key name(s).
 list(parsed_json.keys())
 ```
 
-
-
-
     [u'activities-steps']
-
-
-
 
 ```python
 dates = pd.date_range('2017-12-23', '2018-01-25')
