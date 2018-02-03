@@ -6,7 +6,7 @@ approach.
 Education
 ---------
 
- **April 2018: The University of Texas at Austin – Ph.D. (expected)**
+ **May 2018: The University of Texas at Austin – Ph.D. (expected)**
 -   Psychology, Developmental, Concentration in Applied Statistical Modeling
 
  **2011: University of California at San Diego – B.S.**
@@ -44,7 +44,7 @@ Selected Honors and Awards
 -   2018: UT Austin Dissertation Fellowship ($10,000)
 -   2017: Intellectual Entrepreneurship Graduate Mentor Travel Award
 -   2017: Debra Lobliner Research Fellowship Award ($1,393)
--   2013 – 2017: UT Austin Professional Development Awards
+-   2014 – 2018: UT Austin Professional Development Awards
 
 
 
