@@ -10,7 +10,7 @@ Education
 -   Psychology, Developmental, Concentration in Applied Statistical Modeling
  
  **2015: The University of Texas at Austin – M.A.**
--   Psychology, Cognitive Science
+-   Psychology, Cognitive Neuroscience
 
  **2011: University of California at San Diego – B.S.**
 -   Cognitive Neuroscience (specialization in Neuroscience); Philosophy
