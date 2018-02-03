@@ -8,6 +8,9 @@ Education
 
  **May 2018: The University of Texas at Austin – Ph.D. (expected)**
 -   Psychology, Developmental, Concentration in Applied Statistical Modeling
+ 
+ **2015: The University of Texas at Austin – M.A.**
+-   Psychology, Cognitive Science
 
  **2011: University of California at San Diego – B.S.**
 -   Cognitive Neuroscience (specialization in Neuroscience); Philosophy
