@@ -788,8 +788,19 @@ mod2.summary().tables[1]
 ```
 
 
-
-
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>coef</th><th>std err</th><th>t</th><th>P>|t|</th><th>[.025</th><th>0.975]</th>
+</tr>
+<tr>
+<td>Intercept</td><td>9.4319</td><td>1.558</td><td>6.054</td><td>0.000</td><td>6.254</td><td>12.610</td>
+</tr>
+<tr>
+<td>hours_prev</td><td>-1.1131</td><td>0.180</td><td>-6.173</td><td>0.000</td><td>-1.481</td><td>-0.745</td>
+</tr>
+</table>
+</body>
 
 **Results Question 2:**
 
