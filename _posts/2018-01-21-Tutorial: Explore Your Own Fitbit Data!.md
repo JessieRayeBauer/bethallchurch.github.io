@@ -762,7 +762,7 @@ stepsdf.head()
 <th></th><th>date</th><th>steps</th><th>day_of_week</th><th>day_name</th><th>hours</th><th>hours_prev</th><th>hours_diff</th>
 </tr>
 <tr>
-<td>0</td><td>2017-12-23</td><td>4238</td><td>5</thtdtd>Saturday</td><td>9.116667</td><td>NaN</td><td>NaN</td>
+ <td>0</td><td>2017-12-23</td><td>4238</td><td>5</td><td>Saturday</td><td>9.116667</td><td>NaN</td><td>NaN</td>
 </tr>
 <tr>
 <td>1</td><td>2017-12-24</td><td>10776</td><td>6</td><td>Sunday</td><td>9.2500000</td><td>9.116667</td><td>0.133333</td>
@@ -786,7 +786,6 @@ stepsdf.head()
 mod2 = smf.ols(formula = 'hours_diff ~ hours_prev', data = stepsdf).fit()
 mod2.summary().tables[1]
 ```
-
 
 <body>
 <table class="gridtable">
