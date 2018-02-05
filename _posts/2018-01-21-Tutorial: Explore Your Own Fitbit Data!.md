@@ -772,7 +772,7 @@ stepsdf.head()
 </tr>
 </tr>
  <tr>
-<td>3</td><td>2017-12-26</td><td>9468</td><td>1</td><td>Tuesday</td><td>9.966667</td><th>8.683333</td><td>1.23333</td>
+<td>3</td><td>2017-12-26</td><td>9468</td><td>1</td><td>Tuesday</td><td>9.966667</td><td>8.683333</td><td>1.23333</td>
 </tr>
  <tr>
 <td>4</td><td>2017-12-27</td><td>7046</td><td>2</td><td>Wednesday</td><td>7.500000</td><td>9.966667</td><td>-2.466667</td>
@@ -781,11 +781,11 @@ stepsdf.head()
 </body>
 
 
+
 ```python
 mod2 = smf.ols(formula = 'hours_diff ~ hours_prev', data = stepsdf).fit()
 mod2.summary().tables[1]
 ```
-
 
 
 <body>
