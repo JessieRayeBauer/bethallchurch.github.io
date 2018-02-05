@@ -363,9 +363,28 @@ sleepdf["day_name"] = sleepdf["day_of_week"].apply(lambda x: days[x])
 sleepdf.head()
 ```
 
-
-![png](/images/table6.png)
-
+<body>
+<table class="gridtable">
+<tr>
+<th>dates</th><th>hours</th><th>day_of_week</th><th>day_name</th>
+</tr>
+<tr>
+<td>2017-12-23</td><td>9.116667</td><td>5</td><th>Saturday</th>
+</tr>
+<tr>
+<td>2017-12-24</td><td>9.250000</td><td>6</td><th>Sunday</th>
+</tr>
+ <tr>
+<td>2017-12-25</td><td>8.683333</td><td>0</td><th>Monday</th>
+</tr>
+ <tr>
+<td>2017-12-26</td><td>9.966667</td><td>1</td><th>Tuesday</th>
+</tr>
+ <tr>
+<td>2017-12-27</td><td>7.5000000</td><td>2</td><th>Wednesday</th>
+</tr>
+</table>
+</body>
 
 
 For kicks, we should probably check and officially see if we have an even amount of data per day (in case I forgot to put it on one night or the battery died). 
@@ -494,8 +513,29 @@ stepsdf.columns = ['date','steps'] # rename columns
 ```python
 stepsdf.head()
 ```
-![png](/images/table7.png)
 
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>date</th><th>steps</th>
+</tr>
+<tr>
+<td>0</td><td>2017-12-23</td><td>4238</td>
+</tr>
+<tr>
+<td>1</td><td>2017-12-24</td><td>10776</td>
+</tr>
+ <tr>
+<td>2</td><td>2017-12-25</td><td>4928</td>
+</tr>
+ <tr>
+<td>3</td><td>2017-12-26</td><td>9468</td>
+</tr>
+ <tr>
+<td>4</td><td>2017-12-27</td><td>7046</td>
+</tr>
+</table>
+</body>
 
 Add column for the day of week, just as before. 
 
@@ -507,8 +547,28 @@ stepsdf["day_name"] = stepsdf["day_of_week"].apply(lambda x: days[x])
 stepsdf.head()
 ```
 
-![png](/images/table8.png)
-
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>date</th><th>steps</th><th>day_of_week</th><th>day_name</th>
+</tr>
+<tr>
+<td>0</td><td>2017-12-23</td><td>4238</td><th>5</th><th>Saturday</th>
+</tr>
+<tr>
+<td>1</td><td>2017-12-24</td><td>10776</td><th>6</th><th>Sunday</th>
+</tr>
+ <tr>
+<td>2</td><td>2017-12-25</td><td>4928</td><th>0</th><th>Monday</th>
+</tr>
+ <tr>
+<td>3</td><td>2017-12-26</td><td>9468</td><th>1</th><th>Tuesday</th>
+</tr>
+ <tr>
+<td>4</td><td>2017-12-27</td><td>7046</td><th>2</th><th>Wednesday</th>
+</tr>
+</table>
+</body>
 
 To perform any analyses or plot data, we need to convert steps column into a numeric type. Otherwise we get errors. We don't like errors.
 
@@ -618,14 +678,49 @@ stepsdf["hours_prev"] = stepsdf.shift(1).hours
 stepsdf.head()
 ```
 
-![png](/images/table9.png)
+
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>date</th><th>steps</th><th>day_of_week</th><th>day_name</th><th>hours</th><th>hours_prev</th>
+</tr>
+<tr>
+<td>0</td><td>2017-12-23</td><td>4238</td><th>5</th><th>Saturday</th><th>9.116667</th><th>NaN</th>
+</tr>
+<tr>
+<td>1</td><td>2017-12-24</td><td>10776</td><th>6</th><th>Sunday</th><th>9.2500000</th><th>9.116667</th>
+</tr>
+ <tr>
+<td>2</td><td>2017-12-25</td><td>4928</td><th>0</th><th>Monday</th><th>8.683333</th><th>9.2500000</th>
+</tr>
+</tr>
+ <tr>
+<td>3</td><td>2017-12-26</td><td>9468</td><th>1</th><th>Tuesday</th><th>9.966667</th><th>8.683333</th>
+</tr>
+ <tr>
+<td>4</td><td>2017-12-27</td><td>7046</td><th>2</th><th>Wednesday</th><th>7.500000</th><th>9.966667</th>
+</tr>
+</table>
+</body>
 
 ```python
 mod1 = smf.ols(formula = "steps ~ hours_prev", data = stepsdf).fit()
 mod1.summary().tables[1]
 ```
-![png](/images/table10.png)
 
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>coef</th><th>std err</th><th>t</th><th>P>|t|</th><th>[.025</th><th>0.975]</th>
+</tr>
+<tr>
+<td>Intercept</td><td>7624.5193</td><td>3320.426</td><th>2.296</th><th>0.029</th><th>852.465</th><th>1.44e+04</th>
+</tr>
+<tr>
+<td>hours_prev</td><td>130.7044</td><td>384.278</td><th>0.340</th><th>0.736</th><th>-653.036</th><th>914.445</th>
+</tr>
+</table>
+</body>
 
 
 **Results:**
@@ -661,9 +756,29 @@ stepsdf["hours_diff"] = stepsdf.hours - stepsdf.hours_prev
 stepsdf.head()
 ```
 
-
-![png](/images/table11.png)
-
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>date</th><th>steps</th><th>day_of_week</th><th>day_name</th><th>hours</th><th>hours_prev</th><th>hours_diff</th>
+</tr>
+<tr>
+<td>0</td><td>2017-12-23</td><td>4238</td><th>5</th><th>Saturday</th><th>9.116667</th><th>NaN</th><th>NaN</th>
+</tr>
+<tr>
+<td>1</td><td>2017-12-24</td><td>10776</td><th>6</th><th>Sunday</th><th>9.2500000</th><th>9.116667</th><th>0.133333</th>
+</tr>
+ <tr>
+<td>2</td><td>2017-12-25</td><td>4928</td><th>0</th><th>Monday</th><th>8.683333</th><th>9.2500000</th><th>-0.566667</th>
+</tr>
+</tr>
+ <tr>
+<td>3</td><td>2017-12-26</td><td>9468</td><th>1</th><th>Tuesday</th><th>9.966667</th><th>8.683333</th><th>1.23333</th>
+</tr>
+ <tr>
+<td>4</td><td>2017-12-27</td><td>7046</td><th>2</th><th>Wednesday</th><th>7.500000</th><th>9.966667</th><th>-2.466667</th>
+</tr>
+</table>
+</body>
 
 
 ```python
@@ -672,8 +787,20 @@ mod2.summary().tables[1]
 ```
 
 
-![png](/images/table12.png)
 
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>coef</th><th>std err</th><th>t</th><th>P>|t|</th><th>[.025</th><th>0.975]</th>
+</tr>
+<tr>
+<td>Intercept</td><td>9.4319</td><td>1.558</td><th>6.054</th><th>0.000</th><th>6.254</th><th>12.610</th>
+</tr>
+<tr>
+<td>hours_prev</td><td>-1.1131</td><td>0.180</td><th>-6.173</th><th>0.000</th><th>-1.481</th><th>-0.745</th>
+</tr>
+</table>
+</body>
 
 
 **Results Question 2:**
