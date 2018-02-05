@@ -693,7 +693,6 @@ stepsdf.head()
  <tr>
 <td>2</td><td>2017-12-25</td><td>4928</td><td>0</td><td>Monday</td><td>8.683333</td><td>9.2500000</td>
 </tr>
-</tr>
  <tr>
 <td>3</td><td>2017-12-26</td><td>9468</td><td>1</td><td>Tuesday</td><td>9.966667</td><td>8.683333</td>
 </tr>
