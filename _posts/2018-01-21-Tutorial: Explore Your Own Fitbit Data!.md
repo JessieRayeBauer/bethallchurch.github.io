@@ -157,8 +157,7 @@ plt.ylabel('Heart Rate');
 That's a lot of data... it's my heartrate for every few seconds for an entire day. 
 
 Hmmmm... it looks like I went for a run or swim at some point!
-
-My researcher instincts are coming out now... Must check for outliers and see the general range of heartrate values!
+As a safety measure, we should check for outliers and see the general range of heartrate values.
 
 
 ```python
@@ -338,8 +337,7 @@ plt.show()
 
 Let's plot the sleep data another way...how about a distribution?
 
-By the way, what do you call a haunted distrubution?  A paranormal distribution. Ha! Sorry guys. 
-
+By the way, what do you call a haunted distrubution?  A paranormal distribution. 
 
 ```python
 sns.distplot(sleepdf['hours'], color="mediumseagreen")
@@ -592,7 +590,7 @@ stepsdf.info()
 
 Now it's numeric! Anything is pos-iiii-ble!
 
-Anywho... let's see my step distribution.
+Let's see my step distribution.
 
 
 ```python
@@ -607,10 +605,7 @@ plt.show()
 ![png](/images/Fitbitexplore_60_0.png)
 
 
-Violin time.
-
- I shall call it: "Friday: run or couch?"
-
+Violin plot.
 
 ```python
 sns.violinplot(x='day_name',
