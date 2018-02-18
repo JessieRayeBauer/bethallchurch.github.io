@@ -531,9 +531,9 @@ plt.show()
 
 
 ### References:
-+1.  Crowley, K., Callanan, M. A., Tenenbaum, H. R., & Allen, E. (2001). Parents explain more often to boys than to girls during shared scientific thinking. Psychological Science, 12(3), 258-261.
-+2.  Tenenbaum, H. R., & Leaper, C. (2003). Parent-child conversations about science: The socialization of gender inequities. Developmental psychology, 39(1), 34.	
-+3.  Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." Proceedings of the ACM SIGKDD International Conference on Knowledge. Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle, Washington, USA.
-+4. Fenson, L., Marchman, V. A., Thal, D. J., Dale, P. S., Reznick, J. S., and Bates, E. (2007). MacArthur-Bates Communicative Development Inventories: User's Guide and Technical Manual - Second Edition. Baltimore: Brookes Publishing.
-+5. http://www.descriptionkey.org/vocab/stem.html#pre-k
-+6. [The Little Learners Lab](https://labs.la.utexas.edu/little-learners-lab/) at UT Austin
++ 1.  Crowley, K., Callanan, M. A., Tenenbaum, H. R., & Allen, E. (2001). Parents explain more often to boys than to girls during shared scientific thinking. Psychological Science, 12(3), 258-261.
++ 2.  Tenenbaum, H. R., & Leaper, C. (2003). Parent-child conversations about science: The socialization of gender inequities. Developmental psychology, 39(1), 34.	
++ 3.  Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." Proceedings of the ACM SIGKDD International Conference on Knowledge. Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle, Washington, USA.
++ 4. Fenson, L., Marchman, V. A., Thal, D. J., Dale, P. S., Reznick, J. S., and Bates, E. (2007). MacArthur-Bates Communicative Development Inventories: User's Guide and Technical Manual - Second Edition. Baltimore: Brookes Publishing.
++ 5. http://www.descriptionkey.org/vocab/stem.html#pre-k
++ 6. [The Little Learners Lab](https://labs.la.utexas.edu/little-learners-lab/) at UT Austin
