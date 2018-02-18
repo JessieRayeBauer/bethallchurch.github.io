@@ -96,7 +96,7 @@ alldf.head()## take a peak
 <div>
 <style>
     .dataframe thead tr:only-child th {
-        text-align: right;
+        text-align: center;
     }
 
     .dataframe thead th {
@@ -109,7 +109,7 @@ alldf.head()## take a peak
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: center;">
       <th></th>
       <th>gender</th>
       <th>transcript</th>
@@ -137,7 +137,7 @@ alldf.head()## take a peak
       <td>What is this? Yeah. Angel, what is this? Not n...</td>
     </tr>
     <tr>
-      <th>4</th>
+      <th>4 </th>
       <td>f</td>
       <td>Do you want to do the red net or the blue net?...</td>
     </tr>
@@ -394,7 +394,7 @@ wordcatsdf
 <div>
 <style>
     .dataframe thead tr:only-child th {
-        text-align: right;
+        text-align: center;
     }
 
     .dataframe thead th {
@@ -407,7 +407,7 @@ wordcatsdf
 </style>
 <table border="1" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: center;">
       <th></th>
       <th>Word Category</th>
       <th>Girls</th>
