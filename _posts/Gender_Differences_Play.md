@@ -66,7 +66,7 @@ plt.show()
 ```
 
 
-![png](output_4_0.png)
+![png](images/output_4_0.png)
 
 
 Next, I will read in a dataframe where each row represents a participant. To create this dataframe, I read in each text file and appended it to a dataframe. Note that the participant ID has been removed for privacy. 
