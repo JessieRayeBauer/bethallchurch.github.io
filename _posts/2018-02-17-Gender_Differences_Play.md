@@ -267,7 +267,7 @@ visualizer.poof()
 ```
 
 
-![png](output_19_0.png)
+![png](images/output_19_0.png)
 
 
 
@@ -282,7 +282,7 @@ visualizer.poof()
 ```
 
 
-![png](output_20_0.png)
+![png](images/output_20_0.png)
 
 
 Upon initial inspection, it looks like the frequency of word usage is fairly equivalent across gender- which is good news!
@@ -498,7 +498,7 @@ plt.show()
 ```
 
 
-![png](output_35_0.png)
+![png](images/output_35_0.png)
 
 
 ## Results
@@ -523,11 +523,11 @@ plt.show()
 ```
 
 
-![png](output_37_0.png)
+![png](images/output_37_0.png)
 
 
 
-![png](output_37_1.png)
+![png](images/output_37_1.png)
 
 
 ### References:
