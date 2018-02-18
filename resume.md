@@ -6,7 +6,7 @@ approach.
 Education
 ---------
 
- **May 2018: The University of Texas at Austin – Ph.D. (expected)**
+ **April 2018: The University of Texas at Austin – Ph.D. (expected)**
 -   Psychology, Developmental, Concentration in Applied Statistical Modeling
  
  **2015: The University of Texas at Austin – M.A.**
