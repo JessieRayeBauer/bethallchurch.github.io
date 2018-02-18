@@ -112,7 +112,7 @@ alldf.head()## take a peak
 </table>
 </body>
 
-The text looks messy. We need to remove puncuation, unrecognized characters and common "stop" words. First, let's remove punctuation and symbols. 
+The text looks messy. We need to remove punctuation, unrecognized characters and common "stop" words. First, let's remove punctuation and symbols. 
 
 
 ```python
