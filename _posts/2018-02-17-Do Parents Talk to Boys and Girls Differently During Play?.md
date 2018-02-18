@@ -100,7 +100,7 @@ alldf.head()## take a peak
     }
 
     .dataframe thead th {
-        text-align: left;
+        text-align: center;
     }
 
     .dataframe tbody tr th {
@@ -144,8 +144,6 @@ alldf.head()## take a peak
   </tbody>
 </table>
 </div>
-
-
 
 The text looks messy. We need to remove puncuation, unrecognized characters and common "stop" words. First, let's remove punctuation and symbols. 
 
