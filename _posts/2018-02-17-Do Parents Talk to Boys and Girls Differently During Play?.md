@@ -107,43 +107,28 @@ alldf.head()## take a peak
         vertical-align: top;
     }
 </style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: center;">
-      <th></th>
-      <th>gender</th>
-      <th>transcript</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>f</td>
-      <td>Ok. Pick up the, pick up the butterfly. Here, ...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>f</td>
-      <td>Where this one go? Look at you, you�_re right....</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>f</td>
-      <td>What is that? Ooh, that looks like a spider. W...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>f</td>
-      <td>What is this? Yeah. Angel, what is this? Not n...</td>
-    </tr>
-    <tr>
-      <th>4 </th>
-      <td>f</td>
-      <td>Do you want to do the red net or the blue net?...</td>
-    </tr>
-  </tbody>
+<body>
+<table class="gridtable">
+<tr>
+<th></th><th>gender</th><th>transcript</th>
+</tr>
+<tr>
+<td>0</td><td>f</td><td>Ok. Pick up the, pick up the butterfly. Here, ...</td>
+</tr>
+<tr>
+<td>1</td><td>f</td><td>Where this one go? Look at you, you�_re right....</td>
+</tr>
+ <tr>
+<td>2</td><td>f</td><td>What is that? Ooh, that looks like a spider. W...</td>
+</tr>
+ <tr>
+   <td>3</td><td>f</td><td>What is this? Yeah. Angel, what is this? Not n...</td>
+</tr>
+ <tr>
+<td>4</td><td>f</td><td>Do you want to do the red net or the blue net?...</td>
+</tr>
 </table>
-</div>
+</body>
 
 The text looks messy. We need to remove puncuation, unrecognized characters and common "stop" words. First, let's remove punctuation and symbols. 
 
