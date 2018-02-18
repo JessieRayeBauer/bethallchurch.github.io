@@ -1,4 +1,9 @@
+---
 
+layout: post
+title: "Do Parents Talk to Boys and Girls Differently During Play?"
+date: 2018-02-17
+---
 # Do Parents Talk to Boys and Girls Differently During Play?
 
 
@@ -8,7 +13,7 @@ Recently, there has been increasing focus on gender differences and parenting in
 
 Data for this project came from a study investigating word learning skills in toddlers in my [lab](https://labs.la.utexas.edu/little-learners-lab/) at UT Austin. With much help from a talented research assistant, Katherine Soon, we transcribed a random sample of parent-child play sessions. In this project, I examine the types of words parents use with their toddlers during a brief play session with this [toy](http://www.melissaanddoug.com/bug-catching-magnetic-puzzle-game/3779.html?utm_source=google&utm_medium=shopping&utm_campaign=PLA_B_Active_Play_Desk&utm_term=Active_Play_Outdoor&utm_content=a6&product_id=ae0f052115fca3351fc50a1fa59a6392&gclid=EAIaIQobChMIxZTwxMqf2QIVW57ACh1mvgIKEAQYAyABEgLZD_D_BwE) in the lab. 
 
-![png](images/buggame.png)
+![png](/images/buggame.png)
 
 
 ```python
@@ -68,7 +73,7 @@ plt.show()
 ```
 
 
-![png](images/output_4_0.png)
+![png](/images/output_4_0.png)
 
 
 Next, I will read in a dataframe where each row represents a participant. To create this dataframe, I read in each text file and appended it to a dataframe. Note that the participant ID has been removed for privacy. 
@@ -190,9 +195,6 @@ fdistF = FreqDist(tokensF)
 tokensF[:10]
 ```
 
-
-
-
     ['looks',
      'like',
      'spider',
@@ -203,10 +205,7 @@ tokensF[:10]
      'baby',
      'dragonfly',
      'goes']
-
-
-
-
+     
 ```python
 ## create clean text object for later analyses
 cleanmale = clean_text(maletext)
@@ -500,7 +499,7 @@ plt.show()
 ```
 
 
-![png](images/output_35_0.png)
+![png](/images/output_35_0.png)
 
 
 ## Results
@@ -525,11 +524,11 @@ plt.show()
 ```
 
 
-![png](images/output_37_0.png)
+![png](/images/output_37_0.png)
 
 
 
-![png](images/output_37_1.png)
+![png](/images/output_37_1.png)
 
 
 ### References:
