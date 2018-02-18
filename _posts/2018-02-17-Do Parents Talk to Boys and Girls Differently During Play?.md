@@ -355,24 +355,9 @@ wordcatsdf
 
 
 
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: center;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: center;">
+<body>
+<table class="gridtable">
+<tr>
       <th></th>
       <th>Word Category</th>
       <th>Girls</th>
@@ -380,8 +365,6 @@ wordcatsdf
       <th>Girls (%)</th>
       <th>Boys (%)</th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <th>0</th>
       <td>Positive</td>
@@ -421,10 +404,9 @@ wordcatsdf
       <td>1197</td>
       <td>75.63</td>
       <td>75.33</td>
-    </tr>
-  </tbody>
+</tr>
 </table>
-</div>
+</body>
 
 
 
