@@ -252,7 +252,7 @@ visualizer.poof()
 
 Upon initial inspection, it looks like the frequency of word usage is fairly equivalent across gender- which is good news!
 
-Another interesting analyis might be to investigate how often parents use certain TYPES of words across gender. To do so, I created four text corpora: positive, negative, science-related, and animal words. 
+Another interesting analysis might be to investigate how often parents use certain TYPES of words across gender. To do so, I created four text corpora: positive, negative, science-related, and animal words. 
 
 I used the positive and negative text corpora from [here](http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html). 
 
@@ -450,7 +450,7 @@ plt.show()
 
 ## Results
 
-According to our data, we did not observe any gender differences between the types of words (e.g., negative or amount of STEM-related) that parents used with 2-year olds. This is good news in light of the recent evidence that there are vast differences in how parents approach play and speak with their children depending on their gender.  However, this project is limited in several aspects. First, our sample size was small. I only used a sub sample from the data avaiable in my lab. Second, I only explored at tokens. I did not examine bigrams, or other more advanced NLP techniques here. Third and finally, the task used in this parent-child interaction was not necessarily designed to promote any type of STEM education or related prompting from parents. Since the task was play-based and neutral (no direct instructions were given), this might explain the similar results between the genders. 
+According to our data, we did not observe any gender differences between the types of words (e.g., negative or amount of STEM-related) that parents used with 2-year olds. This is good news in light of the recent evidence that there are vast differences in how parents approach play and speak with their children depending on their gender.  However, this project is limited in several aspects. First, our sample size was small. I only used a sub sample from the data available in my lab. Second, I only explored at tokens. I did not examine bigrams, or other more advanced NLP techniques here. Third and finally, the task used in this parent-child interaction was not necessarily designed to promote any type of STEM education or related prompting from parents. Since the task was play-based and neutral (no direct instructions were given), this might explain the similar results between the genders. 
 
 Let's end with cleaned up versions of word clouds for each gender. 
 
