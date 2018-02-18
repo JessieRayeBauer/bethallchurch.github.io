@@ -89,24 +89,6 @@ alldf = alldf.drop('idcol', axis=1)
 alldf = alldf.drop('Unnamed: 0', axis=1)
 alldf.head()## take a peak
 ```
-
-
-
-
-<div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: center;
-    }
-
-    .dataframe thead th {
-        text-align: center;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <body>
 <table class="gridtable">
 <tr>
