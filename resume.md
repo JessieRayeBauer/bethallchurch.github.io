@@ -1,4 +1,4 @@
-Developmental psychology and statistics Ph.D. candidate.
+Ph.D. in Developmental psychology, minor in statistics.
 Seeking a position as a data scientist in a collaborative, fast-paced,
 and challenging environment. I like solving problems using a data driven
 approach.
@@ -6,7 +6,7 @@ approach.
 Education
 ---------
 
- **April 2018: The University of Texas at Austin – Ph.D. (expected)**
+ **2018: The University of Texas at Austin – Ph.D.**
 -   Psychology, Developmental, Concentration in Applied Statistical Modeling
  
  **2015: The University of Texas at Austin – M.A.**
