@@ -29,7 +29,7 @@ Data Science & Research Experience
 
  **Graduate Researcher, The University of Texas at Austin (2013-current)**
 -   Analyzed behavioral and survey data using linear mixed effects models, repeated measures ANOVA/regression, multiple imputation, structural equation modeling, time series analysis, logistic regression, chi-square tests, t-tests, hierarchical Bayesian estimation, and model comparisons in R (‘lme4’, 'mice', 'lavaan', 'mitools', ‘aov’), Python (‘HDDM’) and MPLUS.
--   Authored 2 peer-reviewed journal articles, 4 manuscripts under review and in preparation. 
+-   Authored 3 peer-reviewed journal articles, 3 manuscripts under review and in preparation. 
 -   Presented results to researchers at national and international conferences and departmental seminars. 
 -   Led teams of up to 12 research assistants to ensure quality data collection, coding, and quality control across 5 different projects.
 -   Mentored and independently supervised 3 undergraduate students who completed independent research projects within the lab.
