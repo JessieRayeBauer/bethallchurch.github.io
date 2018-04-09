@@ -8,6 +8,6 @@ When not in the lab, I can usually be seen running, biking, swimming, or hiking 
 
 + [jessie.raye.bauer@gmail.com](mailto:jessie.raye.bauer@gmail.com)
 
-<div style="text-align:center" markdown="1">
-![Klaus](images/klausbluebonnets.jpg){:height="40%" width="40%"}   
-</div>
+
+| I am text to the left  | ![Flowers](/flowers.jpeg){:height="40%" width="40%"}  |
+
