@@ -4,9 +4,8 @@ My research interests focus on learning about the developmental trajectory and s
 
 When not in the lab, I can usually be seen running, biking, swimming, or hiking with my dog, Klaus. 
 
-| ![klaus](images/klausbluebonnets.jpg){:height="40%" width="40%"}  |
-
 ### Contact me
++ [jessie.raye.bauer@gmail.com](mailto:jessie.raye.bauer@gmail.com) | ![klaus](images/klausbluebonnets.jpg){:height="40%" width="40%"}  |
 
-+ [jessie.raye.bauer@gmail.com](mailto:jessie.raye.bauer@gmail.com)
+
 
