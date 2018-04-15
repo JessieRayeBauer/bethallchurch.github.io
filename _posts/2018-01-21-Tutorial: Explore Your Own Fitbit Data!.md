@@ -13,7 +13,7 @@ date: 2018-03-06
 Part 1. Questions
 
 1. Activity Level (i.e., Steps) and Sleep
-2. Cadence Change Over Time
+2. Running Cadence Change Over Time
 3. Have I Built Up a Sleep Deficit?
 
 Part 2. Summary and Next Steps
