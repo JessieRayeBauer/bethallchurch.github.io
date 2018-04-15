@@ -5,7 +5,7 @@ title: "Updated- Tutorial: Explore Your Own Fitbit Data!"
 date: 2018-03-06
 ---
 
-##Exploring My Fitbit Data
+# Exploring My Fitbit Data
 
 
 #### As a new Fitbit owner, previous collegiate athlete, and fitness lover, I am incredibly curious about my Fitbit data. I was especially curious about some potential analyses Fitbit did not already provide.
