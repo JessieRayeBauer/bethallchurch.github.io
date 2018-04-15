@@ -9,9 +9,9 @@ date: 2018-03-06
 
 ### The general outline of this notebook is as follows:
  Part 1. Questions
- 	1. Activity Level (i.e., Steps) and Sleep
- 	2. Cadence Change Over Time
- 	3. Have I Built Up a Sleep Deficit?
+ 	+ 1. Activity Level (i.e., Steps) and Sleep
+ 	+ 2. Cadence Change Over Time
+  + 3. Have I Built Up a Sleep Deficit?
  Part 2. Summary and Next Steps
  
 Note: In order to get my Fitbit data, I first had to set up a [Fitbit API](https://dev.fitbit.com/apps/new). Then, I ran a separate script - available [here](https://github.com/JessieRayeBauer/Fitbit/blob/master/Pull_fitbit_data.md).
@@ -516,20 +516,12 @@ ttest_ind(beforeruns_test['value'], afterruns_test['value'])
 
 It looks like there is a significant difference between my cadence during earlier (M = 161.85) and later (M = 169.44) training runs (*p* = .02). My cadence has become quicker throughout my training. This is important for me as a runner as overstriding can lead to injury, and a quicker cadence means a faster pace!
 
-
-```python
-
-```
-
 ## Question 3: Do I need more sleep the night after I don't get a lot of sleep? In other words, am I building up a sleep deficit?
 
 
 In the model below, I predict the difference in amount of sleep for a given day from the previous nights' hours of sleep. I will use an ordinary least squares regression model. Below is the code for the model, fitting the model, and displaying the results.
 
 But first, we need to create a delta sleep variable to capture the difference in amount of sleep I got from the night before.
-
-
-
 
 ```python
 stepsdf["hours_diff"] = stepsdf.hours - stepsdf.hours_prev
@@ -581,8 +573,7 @@ Here is the negtative linear relationship we saw in our regression table.
 
 
 ## Part 2. 
-
-## Summary and Next steps
+# Summary and Next steps
 In sum, I imported data using Fitbit's API, worked with .json data, visualized my data, ran linear regressions, and performed a t-test. I found that (1) my activity level is independent from how much sleep I get, (2) my cadence is slowly increasing over time, and (3) over time, I have built up a sleep deficit. 
 
 If you have any suggestions on how I can improve, sources that may help improve my code, or comments/questions, please let me know! I am using this space to share and learn. 
