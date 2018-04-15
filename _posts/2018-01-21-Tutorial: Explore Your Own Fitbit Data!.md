@@ -8,11 +8,13 @@ date: 2018-03-06
 #### As a new Fitbit owner, previous collegiate athlete, and fitness lover, I am incredibly curious about my Fitbit data. I was especially curious about some potential analyses Fitbit did not already provide.
 
 ### The general outline of this notebook is as follows:
- Part 1. Questions
- 	+ 1. Activity Level (i.e., Steps) and Sleep
- 	+ 2. Cadence Change Over Time
-  + 3. Have I Built Up a Sleep Deficit?
- Part 2. Summary and Next Steps
+Part 1. Questions
+
+1. Activity Level (i.e., Steps) and Sleep
+2. Cadence Change Over Time
+3. Have I Built Up a Sleep Deficit?
+
+Part 2. Summary and Next Steps
  
 Note: In order to get my Fitbit data, I first had to set up a [Fitbit API](https://dev.fitbit.com/apps/new). Then, I ran a separate script - available [here](https://github.com/JessieRayeBauer/Fitbit/blob/master/Pull_fitbit_data.md).
 
